@@ -1,0 +1,23 @@
+.holder{
+  display: block ruby;
+
+}
+
+.result{
+  padding: 20px 35px;
+  border-radius: 5px;
+  font-size: 22px;
+  margin-top: 46px;
+}
+
+.result.success{
+  background: #1ac900;
+}
+
+.result.failed{
+  background: #ff1500;
+}
+
+.result.loading{
+  background: #00e1ff;
+}

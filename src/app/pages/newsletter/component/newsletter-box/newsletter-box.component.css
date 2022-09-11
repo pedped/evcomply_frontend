@@ -1,0 +1,53 @@
+.title {
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 44px;
+}
+
+
+.subscribe-message {
+  margin-top: 0px;
+  margin-bottom: 44px;
+  font-size: 22px;
+}
+
+.email-box {
+  font-size: 39px;
+  padding: 7px 10px 10px 10px;
+  color: #030039;
+  text-align: center;
+  box-shadow: none;
+  text-shadow: none;
+  border-radius: 10px 0px 0px 10px;
+  border: 1px solid #090075;
+}
+
+
+.btn-join {
+  height: 62px;
+  background: #ffbd00;
+  width: 140px;
+  border-radius: 0px 10px 10px 0px;
+  box-shadow: none;
+  text-shadow: none;
+  position: absolute;
+  font-size: 36px;
+  font-weight: bold;
+  color: #030033;
+  border: none;
+  left: 0px;
+  top: -44px;
+  bottom: 0px;
+  cursor: pointer;
+}
+
+.btn-join:hover {
+  background: #ffc53d;
+}
+
+
+.btn-holder {
+  position: relative;
+  width: 140px;
+  display: inline-block;
+}

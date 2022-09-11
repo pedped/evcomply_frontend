@@ -1,0 +1,27 @@
+<!--When we have received a response-->
+<div class="holder" *ngIf="newsletterJoinResponse">
+  <p [ngClass]="{
+  success: newsletterJoinResponse.result ,
+   failed : newsletterJoinResponse.result == false,
+   loading : isLoading}"
+     class="result">
+    <span *ngIf="newsletterJoinResponse.result">
+      Thanks for signing up!
+    </span>
+
+    <span *ngIf="!newsletterJoinResponse.result">
+      {{newsletterJoinResponse.errorMessage}}
+    </span>
+
+    <span *ngIf="isLoading">
+      Please Wait...
+    </span>
+  </p>
+</div>
+
+<!--Loading-->
+<div class="holder" *ngIf="isLoading">
+  <p class="result loading">
+    Please wait...
+  </p>
+</div>

@@ -1,0 +1,22 @@
+.content {
+  color: #fff;
+  height: 100%;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.newsletter-icon {
+  max-width: 400px;
+}
+
+
+.content .holder {
+  text-align: center;
+  margin-bottom: 50px;
+}

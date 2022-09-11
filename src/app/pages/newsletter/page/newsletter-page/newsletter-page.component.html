@@ -1,0 +1,18 @@
+<div class="content">
+  <div class="center">
+    <div class="holder">
+      <img class="newsletter-icon" src="assets/images/icons/email-icon.png"/>
+
+      <app-newsletter-response
+        [isLoading]="isLoading"
+        [newsletterJoinResponse]="newsletterJoinResponse"
+      ></app-newsletter-response>
+
+      <app-newsletter-box (onRequestJoin)="onJoin($event)"></app-newsletter-box>
+
+    </div>
+  </div>
+</div>
+
+
+

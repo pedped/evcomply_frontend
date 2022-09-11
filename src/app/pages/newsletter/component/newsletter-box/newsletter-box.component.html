@@ -1,0 +1,15 @@
+<form class="newsletter-box" (ngSubmit)="onJoinButtonClicked()">
+
+  <!-- Header-->
+  <h1 class="title">Subscribe to our newsletter</h1>
+  <p class="subscribe-message">please enter your email address bellow and then click on Join button</p>
+
+  <!-- Input Box-->
+  <input class="email-box" type="email" [(ngModel)]="emailAddress" name="emailAddress"/>
+
+  <!-- Join Button-->
+  <div class="btn-holder">
+    <button type="submit" (keyup.enter)="onJoinButtonClicked()" class="btn-join">Join</button>
+  </div>
+
+</form>
